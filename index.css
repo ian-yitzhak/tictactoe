@@ -9,10 +9,14 @@ body{
 	height: 100vh;
 	display: grid;
 	justify-content: center;
+	justify-items: center;
+	align-items: center;
 	align-content: center;
+	grid-template-columns: repeat(3, auto);
 }
 .cell{
 	width: 100px;
 	height: 100px;
-	background: black;
+	
+	border: 1px solid black;
 }
